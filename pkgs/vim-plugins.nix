@@ -4720,19 +4720,6 @@
       homepage = "https://github.com/meain/vim-printer";
     };
   };
-  mellifluous-nvim = buildVimPluginFrom2Nix {
-    pname = "mellifluous-nvim";
-    version = "2023-01-25";
-    src = fetchurl {
-      url = "https://github.com/ramojus/mellifluous.nvim/archive/d55b5a63387017bc6b38bffa67eb9b223c4a2c1e.tar.gz";
-      sha256 = "1lgrzvr2fxxl5by2q6mlfs5hy6r6w10i2f5x7ywci09kcpl6jrbv";
-    };
-    meta = with lib; {
-      description = "Pleasant and productive colorscheme for Neovim";
-      homepage = "https://github.com/ramojus/mellifluous.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
   modicator-nvim = buildVimPluginFrom2Nix {
     pname = "modicator-nvim";
     version = "2022-11-30";

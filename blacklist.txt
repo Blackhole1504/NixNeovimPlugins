@@ -1,8 +1,9 @@
-lukas-reineke/format.nvim
 andersevenrud/compe-tmux
+bluz71/vim-nightfly-guicolors
+Everblush/everblush.nvim
+henriquehbr/ataraxis.lua
+lukas-reineke/format.nvim
+Pocco81/TrueZen.nvim
+ramojus/mellifluous.nvim
 rose-pine/neovim
 shaeinst/penvim
-Everblush/everblush.nvim
-Pocco81/TrueZen.nvim
-henriquehbr/ataraxis.lua
-bluz71/vim-nightfly-guicolors

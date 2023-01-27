@@ -15,13 +15,16 @@ let
 
     highlight-current-n-nvim = true;
 
+    mellifluous.nvim = true;
+
     snippet-converter-nvim = true;
+
+    unruly-worker = true;
 
     vacuumline-nvim = true;
 
     vgit-nvim = true;
 
-    unruly-worker = true;
   };
 
   /*
