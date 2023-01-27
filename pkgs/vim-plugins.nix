@@ -445,6 +445,18 @@
       license = with licenses; [ mit ];
     };
   };
+  scrap-nvim = buildVimPluginFrom2Nix {
+    pname = "scrap-nvim";
+    version = "2022-12-26";
+    src = fetchurl {
+      url = "https://github.com/Mateiadrielrafael/scrap.nvim/archive/16db44ae9403ec9c4b140394f294475d1af80a18.tar.gz";
+      sha256 = "00pfga1xiv6zy2pn1wdvxgs0r2xdcr4ziykdpxc26r37cpbdwsq5";
+    };
+    meta = with lib; {
+      description = "Create abbreviations with ease";
+      homepage = "https://github.com/Mateiadrielrafael/scrap.nvim";
+    };
+  };
   adwaita-nvim = buildVimPluginFrom2Nix {
     pname = "adwaita-nvim";
     version = "2023-01-04";
@@ -4720,6 +4732,19 @@
       homepage = "https://github.com/meain/vim-printer";
     };
   };
+  mellifluous-nvim = buildVimPluginFrom2Nix {
+    pname = "mellifluous-nvim";
+    version = "2023-01-25";
+    src = fetchurl {
+      url = "https://github.com/ramojus/mellifluous.nvim/archive/d55b5a63387017bc6b38bffa67eb9b223c4a2c1e.tar.gz";
+      sha256 = "1lgrzvr2fxxl5by2q6mlfs5hy6r6w10i2f5x7ywci09kcpl6jrbv";
+    };
+    meta = with lib; {
+      description = "Pleasant and productive colorscheme for Neovim";
+      homepage = "https://github.com/ramojus/mellifluous.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   modicator-nvim = buildVimPluginFrom2Nix {
     pname = "modicator-nvim";
     version = "2022-11-30";
@@ -7473,6 +7498,18 @@
       description = "Buffer, mark, tabpage, colorscheme switcher for Neovim";
       homepage = "https://github.com/toppair/reach.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  vim-abolish = buildVimPluginFrom2Nix {
+    pname = "vim-abolish";
+    version = "2023-01-06";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-abolish/archive/aa3428b734ddbd0105615832843f619774a6871e.tar.gz";
+      sha256 = "0jbjfwmlxf9xpkanb4vpz63s1ndi8ghm8x9lrn8qdpwvqvhbhjll";
+    };
+    meta = with lib; {
+      description = "abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word";
+      homepage = "https://github.com/tpope/vim-abolish";
     };
   };
   registers-nvim = buildVimPluginFrom2Nix {

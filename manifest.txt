@@ -1,5 +1,3 @@
-tpope/vim-abolish
-Mateiadrielrafael/scrap.nvim
 0styx0/abbreinder.nvim
 Abstract-IDE/penvim
 AckslD/messages.nvim
@@ -35,6 +33,7 @@ LionC/nest.nvim
 LoricAndre/OneTerm.nvim
 LudoPinelli/comment-box.nvim
 Mangeshrex/uwu.vim
+Mateiadrielrafael/scrap.nvim
 Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
@@ -586,6 +585,7 @@ tjdevries/vlog.nvim
 tomasiser/vim-code-dark
 toppair/peek.nvim
 toppair/reach.nvim
+tpope/vim-abolish
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
 tzachar/cmp-fuzzy-buffer
