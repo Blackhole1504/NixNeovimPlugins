@@ -35,6 +35,7 @@
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2022-03-14 | `OneTerm-nvim` |
 | [LudoPinelli/comment-box.nvim](https://github.com/LudoPinelli/comment-box.nvim) | 2023-01-22 | `comment-box-nvim` |
 | [Everblush/everblush.vim](https://github.com/Everblush/everblush.vim) | 2023-01-24 | `everblush-vim` |
+| [Mateiadrielrafael/scrap.nvim](https://github.com/Mateiadrielrafael/scrap.nvim) | 2022-12-26 | `scrap` |
 | [Mofiqul/adwaita.nvim](https://github.com/Mofiqul/adwaita.nvim) | 2023-01-04 | `adwaita-nvim` |
 | [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim) | 2023-01-19 | `dracula-nvim` |
 | [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2023-01-17 | `vscode-nvim` |
@@ -586,6 +587,7 @@
 | [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) | 2022-12-16 | `vim-code-dark` |
 | [toppair/peek.nvim](https://github.com/toppair/peek.nvim) | 2022-11-11 | `peek-nvim` |
 | [toppair/reach.nvim](https://github.com/toppair/reach.nvim) | 2022-11-21 | `reach-nvim` |
+| [tpope/vim-abolish](https://github.com/tpope/vim-abolish) | 2023-01-20 | `vim-abolish` |
 | [tversteeg/registers.nvim](https://github.com/tversteeg/registers.nvim) | 2022-12-15 | `registers-nvim` |
 | [tveskag/nvim-blame-line](https://github.com/tveskag/nvim-blame-line) | 2022-05-04 | `nvim-blame-line` |
 | [tzachar/cmp-fuzzy-buffer](https://github.com/tzachar/cmp-fuzzy-buffer) | 2022-11-22 | `cmp-fuzzy-buffer` |

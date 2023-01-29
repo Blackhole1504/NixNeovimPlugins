@@ -445,6 +445,18 @@
       license = with licenses; [ mit ];
     };
   };
+  scrap = buildVimPluginFrom2Nix {
+    pname = "scrap";
+    version = "2022-12-26";
+    src = fetchurl {
+      url = "https://github.com/Mateiadrielrafael/scrap.nvim/archive/16db44ae9403ec9c4b140394f294475d1af80a18.tar.gz";
+      sha256 = "00pfga1xiv6zy2pn1wdvxgs0r2xdcr4ziykdpxc26r37cpbdwsq5";
+    };
+    meta = with lib; {
+      description = "Create abbreviations with ease";
+      homepage = "https://github.com/Mateiadrielrafael/scrap.nvim";
+    };
+  };
   adwaita-nvim = buildVimPluginFrom2Nix {
     pname = "adwaita-nvim";
     version = "2023-01-04";
@@ -7486,6 +7498,18 @@
       description = "Buffer, mark, tabpage, colorscheme switcher for Neovim";
       homepage = "https://github.com/toppair/reach.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  vim-abolish = buildVimPluginFrom2Nix {
+    pname = "vim-abolish";
+    version = "2023-01-20";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-abolish/archive/d55c90d6c9995ccb79d2152564a4939cd84d73e9.tar.gz";
+      sha256 = "0i796gvc152npsgh8z776fhk3x5bc6w2rip2qv5qjm6vh3pagzqv";
+    };
+    meta = with lib; {
+      description = "abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word";
+      homepage = "https://github.com/tpope/vim-abolish";
     };
   };
   registers-nvim = buildVimPluginFrom2Nix {
