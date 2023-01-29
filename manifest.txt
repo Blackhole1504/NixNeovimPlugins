@@ -1,3 +1,5 @@
+Mateiadrielrafael/scrap.nvim::scrap
+tpope/vim-abolish
 0styx0/abbreinder.nvim
 Abstract-IDE/penvim
 AckslD/messages.nvim
