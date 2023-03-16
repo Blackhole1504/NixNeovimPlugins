@@ -406,6 +406,19 @@
       license = with licenses; [ asl20 ];
     };
   };
+  trailblazer-nvim = buildVimPluginFrom2Nix {
+    pname = "trailblazer-nvim";
+    version = "2023-03-07";
+    src = fetchurl {
+      url = "https://github.com/LeonHeidelbach/trailblazer.nvim/archive/a01a5bbf5ca9cf6b0773daec3e89046a36f77d7b.tar.gz";
+      sha256 = "1qyl3wfh8skc3w2xrh1mxq3vlr1xiwvaqcdxgky05ff7dzjdv2ny";
+    };
+    meta = with lib; {
+      description = "TrailBlazer enables you to seemlessly move through important project marks as quickly and efficiently as possible to make your workflow blazingly fast ™";
+      homepage = "https://github.com/LeonHeidelbach/trailblazer.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   telescope-command-palette-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-command-palette-nvim";
     version = "2022-12-15";
@@ -4665,6 +4678,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  nap-nvim = buildVimPluginFrom2Nix {
+    pname = "nap-nvim";
+    version = "2023-03-05";
+    src = fetchurl {
+      url = "https://github.com/liangxianzhe/nap.nvim/archive/c466ac99583f4c96c02f4ecae6c826f97253ef78.tar.gz";
+      sha256 = "0dfzypi321n51svwxp875j7arnyxvxf4ccjhhm3p6fjp97s9hnxh";
+    };
+    meta = with lib; {
+      description = "Quickly move between next and previous NeoVim buffer, tab, file, quickfix, diagnostic, etc";
+      homepage = "https://github.com/liangxianzhe/nap.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   lsp-progress-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-progress-nvim";
     version = "2023-03-08";
@@ -5489,6 +5515,18 @@
       description = "One dark and light colorscheme for neovim >= 0.5.0 written in lua based on Atom's One Dark and Light theme. Additionally, it comes with 5 color variant styles";
       homepage = "https://github.com/navarasu/onedark.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  everforest-nvim = buildVimPluginFrom2Nix {
+    pname = "everforest-nvim";
+    version = "2023-03-10";
+    src = fetchurl {
+      url = "https://github.com/neanias/everforest-nvim/archive/f4a55caf4bd6e7c2cb61e0209a517a36b087b4a6.tar.gz";
+      sha256 = "0pyynjfim26rl5hmn7ixz1z2abl46mq8mgrpjnziy6nb91c9bfhs";
+    };
+    meta = with lib; {
+      description = "A Lua port of the Everforest colour scheme";
+      homepage = "https://github.com/neanias/everforest-nvim";
     };
   };
   auto-format-nvim = buildVimPluginFrom2Nix {
@@ -7415,6 +7453,19 @@
       license = with licenses; [ gpl2Only ];
     };
   };
+  hlchunk-nvim = buildVimPluginFrom2Nix {
+    pname = "hlchunk-nvim";
+    version = "2023-03-15";
+    src = fetchurl {
+      url = "https://github.com/shellRaining/hlchunk.nvim/archive/9339c315efc0c0ded0d13519436f131a30a0480c.tar.gz";
+      sha256 = "1d6wg4fh6i5l13k3jwb41c5n5lbj19xbaagkpn65z4f34zaqi0s7";
+    };
+    meta = with lib; {
+      description = "This is the lua implementation of nvim-hlchunk, you can use this neovim plugin to highlight your indent line and the current chunk (context) your cursor stayed";
+      homepage = "https://github.com/shellRaining/hlchunk.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   no-neck-pain-nvim = buildVimPluginFrom2Nix {
     pname = "no-neck-pain-nvim";
     version = "2023-03-05";
@@ -7825,6 +7876,19 @@
       license = with licenses; [ mit ];
     };
   };
+  karen-yank-nvim = buildVimPluginFrom2Nix {
+    pname = "karen-yank-nvim";
+    version = "2023-03-01";
+    src = fetchurl {
+      url = "https://github.com/tenxsoydev/karen-yank.nvim/archive/19173ebc9542f42ad419f1c96d74c4e4feb1c094.tar.gz";
+      sha256 = "0yfpvs0jr8c8k0s4pgwal1y1k8jyvxwsmd8k5p8irfcc3z8sd3za";
+    };
+    meta = with lib; {
+      description = "Neovim Lua plugin to improve register handling with delete, cut and yank mappings";
+      homepage = "https://github.com/tenxsoydev/karen-yank.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   nx-nvim = buildVimPluginFrom2Nix {
     pname = "nx-nvim";
     version = "2023-03-07";
@@ -8199,6 +8263,19 @@
       license = with licenses; [ mit ];
     };
   };
+  sentiment-nvim = buildVimPluginFrom2Nix {
+    pname = "sentiment-nvim";
+    version = "2023-03-15";
+    src = fetchurl {
+      url = "https://github.com/utilyre/sentiment.nvim/archive/3a946bbddcab8da3c3b89734b23387ce6b7f5e0b.tar.gz";
+      sha256 = "0bj5x32glyc5j2nz6wgznb4gmlrxz017b9y6v9dakbjrghydn4mb";
+    };
+    meta = with lib; {
+      description = "Enhanced matchparen.vim plugin for Neovim";
+      homepage = "https://github.com/utilyre/sentiment.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   cmp-clippy = buildVimPluginFrom2Nix {
     pname = "cmp-clippy";
     version = "2023-02-08";
@@ -8326,6 +8403,19 @@
       description = "Further development has moved to https://github.com/williamboman/mason.nvim!";
       homepage = "https://github.com/williamboman/nvim-lsp-installer";
       license = with licenses; [ asl20 ];
+    };
+  };
+  moveline-nvim = buildVimPluginFrom2Nix {
+    pname = "moveline-nvim";
+    version = "2023-03-02";
+    src = fetchurl {
+      url = "https://github.com/willothy/moveline.nvim/archive/144f38abbbb0e8c2c782695aabbee357ed34aba7.tar.gz";
+      sha256 = "1v6jji5jldc5v1ggijrplblag9hp5967p5vynvibsqjw9yq88x6y";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for moving lines up and down, written in Rust";
+      homepage = "https://github.com/willothy/moveline.nvim";
+      license = with licenses; [ mit ];
     };
   };
   nvim-autopairs = buildVimPluginFrom2Nix {
@@ -8652,6 +8742,19 @@
     meta = with lib; {
       description = "Neovim plugin for dimming the highlights of unused functions, variables, parameters, and more";
       homepage = "https://github.com/zbirenbaum/neodim";
+    };
+  };
+  yop-nvim = buildVimPluginFrom2Nix {
+    pname = "yop-nvim";
+    version = "2023-01-22";
+    src = fetchurl {
+      url = "https://github.com/zdcthomas/yop.nvim/archive/0b335cf2a11b6b9e8e21210982f1a5797105b1df.tar.gz";
+      sha256 = "13wiin9a23xpr8rrj77yav3vkjhc6q122hd9nrfaf3jgzxznpm1a";
+    };
+    meta = with lib; {
+      description = "make you some user operators for great good";
+      homepage = "https://github.com/zdcthomas/yop.nvim";
+      license = with licenses; [ asl20 ];
     };
   };
   color-picker-nvim = buildVimPluginFrom2Nix {
