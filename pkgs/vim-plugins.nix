@@ -229,6 +229,19 @@
       license = with licenses; [ unlicense ];
     };
   };
+  cellular-automaton-nvim = buildVimPluginFrom2Nix {
+    pname = "cellular-automaton-nvim";
+    version = "2023-01-25";
+    src = fetchurl {
+      url = "https://github.com/Eandrju/cellular-automaton.nvim/archive/679943b8e1e5ef79aaeeaf4b00782c52eb4e928f.tar.gz";
+      sha256 = "093g0mr9q5plzcxjclyayznm2n3kwg1cnzhc4sizj7324jcpjvmj";
+    };
+    meta = with lib; {
+      description = "A useless plugin that might help you cope with stubbornly broken tests or overall lack of sense in life. It lets you execute aesthetically pleasing, cellular automaton animations based on the content of neovim buffer";
+      homepage = "https://github.com/Eandrju/cellular-automaton.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   nightfox-nvim = buildVimPluginFrom2Nix {
     pname = "nightfox-nvim";
     version = "2023-03-11";
@@ -493,6 +506,19 @@
     meta = with lib; {
       description = "🎨 A beautiful and dark vim colorscheme. ";
       homepage = "https://github.com/Everblush/everblush.vim";
+      license = with licenses; [ mit ];
+    };
+  };
+  runner-nvim = buildVimPluginFrom2Nix {
+    pname = "runner-nvim";
+    version = "2023-03-19";
+    src = fetchurl {
+      url = "https://github.com/MarcHamamji/runner.nvim/archive/a5a437eb11e3f34bbdd15a0de6eb073ac4cd9ae2.tar.gz";
+      sha256 = "18l93j8ab06dw4ca9cxq4bjydr3hca0siaa7iwqnmppbx39i4vq9";
+    };
+    meta = with lib; {
+      description = "A customizable Neovim plugin to run code inside the editor";
+      homepage = "https://github.com/MarcHamamji/runner.nvim";
       license = with licenses; [ mit ];
     };
   };
@@ -1388,6 +1414,19 @@
     meta = with lib; {
       description = "vim syntax file for plantuml";
       homepage = "https://github.com/aklt/plantuml-syntax";
+    };
+  };
+  blackjack-nvim = buildVimPluginFrom2Nix {
+    pname = "blackjack-nvim";
+    version = "2023-03-01";
+    src = fetchurl {
+      url = "https://github.com/alanfortlink/blackjack.nvim/archive/4037e6e3c50af80dbd3937d09249d094567d2cd2.tar.gz";
+      sha256 = "169a1lz00fd7ddysyb9wf71axmxzcmnii48q7cc7xkbbivw6w9gk";
+    };
+    meta = with lib; {
+      description = "Classic Black Jack game in Neovim";
+      homepage = "https://github.com/alanfortlink/blackjack.nvim";
+      license = with licenses; [ mit ];
     };
   };
   nim-nvim = buildVimPluginFrom2Nix {
@@ -4049,6 +4088,19 @@
     meta = with lib; {
       description = "No description";
       homepage = "https://github.com/jim-at-jibba/ariake-vim-colors";
+    };
+  };
+  sudoku-nvim = buildVimPluginFrom2Nix {
+    pname = "sudoku-nvim";
+    version = "2023-03-19";
+    src = fetchurl {
+      url = "https://github.com/jim-fx/sudoku.nvim/archive/cb01171ed746003dd9f508e7a08a5bae2c396ef0.tar.gz";
+      sha256 = "0mdiljgxlf28h1k5b7k9s2r8klay9acwaidzrpspqfjz0xbsmgaj";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/jim-fx/sudoku.nvim";
+      license = with licenses; [ mit ];
     };
   };
   LspUI-nvim = buildVimPluginFrom2Nix {

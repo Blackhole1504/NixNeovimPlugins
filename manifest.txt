@@ -16,6 +16,7 @@ CosmicNvim/cosmic-ui
 Darazaki/indent-o-matic
 David-Kunz/cmp-npm
 David-Kunz/jester
+Eandrju/cellular-automaton.nvim
 EdenEast/nightfox.nvim
 EdvinVikstrom/filetree.nvim
 EthanJWright/vs-tasks.nvim
@@ -37,6 +38,7 @@ LoricAndre/OneTerm.nvim
 LucasTavaresA/simpleIndentGuides.nvim
 LudoPinelli/comment-box.nvim
 Mangeshrex/uwu.vim
+MarcHamamji/runner.nvim
 Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
@@ -107,6 +109,7 @@ akinsho/flutter-tools.nvim
 akinsho/git-conflict.nvim
 akinsho/nvim-toggleterm.lua
 aklt/plantuml-syntax
+alanfortlink/blackjack.nvim
 alaviss/nim.nvim
 alec-gibson/nvim-tetris
 alexaandru/nvim-lspupdate
@@ -315,6 +318,7 @@ jghauser/kitty-runner.nvim
 jghauser/mkdir.nvim
 jghauser/papis.nvim
 jim-at-jibba/ariake-vim-colors
+jim-fx/sudoku.nvim
 jinzhongjia/LspUI.nvim
 jinzhongjia/PS_manager.nvim
 jlesquembre/nterm.nvim
