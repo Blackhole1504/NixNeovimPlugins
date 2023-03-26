@@ -89,6 +89,7 @@ ThePrimeagen/vim-be-good
 TimUntersberger/neofs
 TimUntersberger/neogit
 Wansmer/binary-swap.nvim
+Wansmer/langmapper.nvim
 Wansmer/sibling-swap.nvim
 Wansmer/treesj
 Weissle/easy-action
@@ -165,6 +166,7 @@ chipsenkbeil/distant.nvim
 chiyadev/dep
 chrisgrieser/nvim-genghis
 chrisgrieser/nvim-recorder
+chrisgrieser/nvim-spider
 chrisgrieser/nvim-various-textobjs
 chrsm/impulse.nvim
 chrsm/paramount-ng.nvim
@@ -172,6 +174,7 @@ clojure-vim/jazz.nvim
 coc-extensions/coc-svelte
 code-biscuits/nvim-biscuits
 cpea2506/one_monokai.nvim
+cpea2506/relative-toggle.nvim
 crispgm/nvim-go
 crispgm/nvim-tabline
 crispgm/telescope-heading.nvim
@@ -192,6 +195,7 @@ dccsillag/magma-nvim
 debugloop/telescope-undo.nvim
 declancm/cinnamon.nvim
 declancm/windex.nvim
+desdic/agrolens.nvim
 desdic/greyjoy.nvim
 desdic/telescope-rooter.nvim
 dinhhuy258/sfm.nvim
@@ -660,6 +664,7 @@ sourcehut:whynothugo/lsp_lines.nvim
 williamboman/mason.nvim
 williamboman/nvim-lsp-installer
 willothy/moveline.nvim
+willothy/veil.nvim
 windwp/nvim-autopairs
 windwp/nvim-projectconfig
 windwp/nvim-spectre

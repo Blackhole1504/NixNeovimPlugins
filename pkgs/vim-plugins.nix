@@ -1160,6 +1160,19 @@
       license = with licenses; [ mit ];
     };
   };
+  langmapper-nvim = buildVimPluginFrom2Nix {
+    pname = "langmapper-nvim";
+    version = "2023-03-26";
+    src = fetchurl {
+      url = "https://github.com/Wansmer/langmapper.nvim/archive/02c37809c8b501ad654189b505d818daf36ed7f7.tar.gz";
+      sha256 = "0afzn8az67rd9hx96b1g95ksnpy1zcsmv3p5hjmg34dax3ji7dpn";
+    };
+    meta = with lib; {
+      description = "A plugin that makes Neovim more friendly to non-English input methods 🤝";
+      homepage = "https://github.com/Wansmer/langmapper.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   sibling-swap-nvim = buildVimPluginFrom2Nix {
     pname = "sibling-swap-nvim";
     version = "2023-02-22";
@@ -2131,6 +2144,19 @@
       license = with licenses; [ mit ];
     };
   };
+  nvim-spider = buildVimPluginFrom2Nix {
+    pname = "nvim-spider";
+    version = "2023-03-25";
+    src = fetchurl {
+      url = "https://github.com/chrisgrieser/nvim-spider/archive/ed1dd33d16bedd43ade29f20789e19aa0df70c53.tar.gz";
+      sha256 = "0q5p21v3y01k480xyr4h3pc0dgshin55v0n54na1k0l6zn4j8ywk";
+    };
+    meta = with lib; {
+      description = "Use the w, e, b motions like a spider.  Considers camelCase and skips insignificant punctuation";
+      homepage = "https://github.com/chrisgrieser/nvim-spider";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-various-textobjs = buildVimPluginFrom2Nix {
     pname = "nvim-various-textobjs";
     version = "2023-03-10";
@@ -2218,6 +2244,19 @@
     meta = with lib; {
       description = "One Monokai for Neovim";
       homepage = "https://github.com/cpea2506/one_monokai.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  relative-toggle-nvim = buildVimPluginFrom2Nix {
+    pname = "relative-toggle-nvim";
+    version = "2023-03-25";
+    src = fetchurl {
+      url = "https://github.com/cpea2506/relative-toggle.nvim/archive/fabe2f60f5f148f2bf1fb76e8a542f5adf8d996a.tar.gz";
+      sha256 = "1j2d475bdlfj3fqmalc0r3y9lsxmk3pwj227zwx7xf0cfbswjjl0";
+    };
+    meta = with lib; {
+      description = "Toggles smoothly between number and relative number, supporting various number combinations";
+      homepage = "https://github.com/cpea2506/relative-toggle.nvim";
       license = with licenses; [ mit ];
     };
   };
@@ -2475,6 +2514,19 @@
     meta = with lib; {
       description = "🧼 Clean window maximizing, terminal toggling, window/tmux pane movements and more!";
       homepage = "https://github.com/declancm/windex.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  agrolens-nvim = buildVimPluginFrom2Nix {
+    pname = "agrolens-nvim";
+    version = "2023-03-25";
+    src = fetchurl {
+      url = "https://github.com/desdic/agrolens.nvim/archive/6b8454c395e9edd81682deac89203729da658895.tar.gz";
+      sha256 = "15jhabk71mmkm2vv16mlw6n0pc66171ni145l4sj9xxf4m8kmvmh";
+    };
+    meta = with lib; {
+      description = "Telescope extentions to view pre-defined/custom treesitter queries";
+      homepage = "https://github.com/desdic/agrolens.nvim";
       license = with licenses; [ mit ];
     };
   };
@@ -8468,6 +8520,18 @@
       description = "Neovim plugin for moving lines up and down, written in Rust";
       homepage = "https://github.com/willothy/moveline.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  veil-nvim = buildVimPluginFrom2Nix {
+    pname = "veil-nvim";
+    version = "2023-03-25";
+    src = fetchurl {
+      url = "https://github.com/willothy/veil.nvim/archive/cf812cae7084c078245871e7b717e09ca6c6f1f5.tar.gz";
+      sha256 = "1j8bdaj1w58ifacj6vc65xydxdfk2cr160wfa81s9zbjvaxv949f";
+    };
+    meta = with lib; {
+      description = "A blazingly fast, animated, and infinitely customizeable startup / dashboard plugin";
+      homepage = "https://github.com/willothy/veil.nvim";
     };
   };
   nvim-autopairs = buildVimPluginFrom2Nix {
