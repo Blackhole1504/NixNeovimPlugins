@@ -208,6 +208,7 @@ drybalka/tree-climber.nvim
 dstein64/nvim-scrollview
 dstein64/vim-startuptime
 echasnovski/mini.nvim
+ecthelionvi/NeoColumn.nvim
 edluffy/specs.nvim
 edolphin-ydf/goimpl.nvim
 ekickx/clipboard-image.nvim

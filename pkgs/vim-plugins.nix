@@ -2684,6 +2684,19 @@
       license = with licenses; [ mit ];
     };
   };
+  NeoColumn-nvim = buildVimPluginFrom2Nix {
+    pname = "NeoColumn-nvim";
+    version = "2023-03-25";
+    src = fetchurl {
+      url = "https://github.com/ecthelionvi/NeoColumn.nvim/archive/4d5f673c31759f71d248c1b03154a062d0a02e62.tar.gz";
+      sha256 = "03ilgrh8n598j7gqvll57ax2pxbzaq4agdv62ss8v8cl2f7dhfpr";
+    };
+    meta = with lib; {
+      description = "Neovim plugin that highlights individual characters with a toggleable ColorColumn";
+      homepage = "https://github.com/ecthelionvi/NeoColumn.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   specs-nvim = buildVimPluginFrom2Nix {
     pname = "specs-nvim";
     version = "2022-09-20";
