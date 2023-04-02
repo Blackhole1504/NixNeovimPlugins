@@ -8,6 +8,7 @@ AckslD/nvim-neoclip.lua
 AckslD/nvim-revJ.lua
 AckslD/swenv.nvim
 AllenDang/nvim-expand-expr
+Bekaboo/deadcolumn.nvim
 CRAG666/code_runner.nvim
 Chaitanyabsprip/present.nvim
 ChristianChiarulli/nvcode-color-schemes.vim
@@ -78,6 +79,7 @@ Shatur/neovim-session-manager
 Shatur/neovim-tasks
 SidOfc/carbon.nvim
 SmiteshP/nvim-gps
+SmiteshP/nvim-navbuddy
 SmiteshP/nvim-navic
 Th3Whit3Wolf/one-nvim
 Th3Whit3Wolf/onebuddy
@@ -164,6 +166,7 @@ cbochs/portal.nvim
 chentoast/marks.nvim
 chipsenkbeil/distant.nvim
 chiyadev/dep
+chrisgrieser/nvim-early-retirement
 chrisgrieser/nvim-genghis
 chrisgrieser/nvim-recorder
 chrisgrieser/nvim-spider

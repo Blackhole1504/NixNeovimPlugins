@@ -126,6 +126,19 @@
       license = with licenses; [ mit ];
     };
   };
+  deadcolumn-nvim = buildVimPluginFrom2Nix {
+    pname = "deadcolumn-nvim";
+    version = "2023-04-01";
+    src = fetchurl {
+      url = "https://github.com/Bekaboo/deadcolumn.nvim/archive/11d1f325b93957d1a5bc65c4bcb6a25bc911ff2f.tar.gz";
+      sha256 = "09ra8fqcyi3fb3m6zlnm43dl67x0llxyj8mb3jf1miwzsr10s24m";
+    };
+    meta = with lib; {
+      description = "A neovim plugin that shows colorcolumn dynamically";
+      homepage = "https://github.com/Bekaboo/deadcolumn.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   code-runner-nvim = buildVimPluginFrom2Nix {
     pname = "code-runner-nvim";
     version = "2023-02-02";
@@ -1016,6 +1029,19 @@
     meta = with lib; {
       description = "Simple statusline component that shows what scope you are working inside";
       homepage = "https://github.com/SmiteshP/nvim-gps";
+      license = with licenses; [ asl20 ];
+    };
+  };
+  nvim-navbuddy = buildVimPluginFrom2Nix {
+    pname = "nvim-navbuddy";
+    version = "2023-04-02";
+    src = fetchurl {
+      url = "https://github.com/SmiteshP/nvim-navbuddy/archive/a0e36447f39442436dfbd371d7daea5c2dc9ec58.tar.gz";
+      sha256 = "0hd925j8q1zkawj9cn8ga24rjqpjji1z35k8qaq2qhjsyp18hn85";
+    };
+    meta = with lib; {
+      description = "A simple popup display that provides breadcrumbs feature using LSP server";
+      homepage = "https://github.com/SmiteshP/nvim-navbuddy";
       license = with licenses; [ asl20 ];
     };
   };
@@ -2115,6 +2141,19 @@
     meta = with lib; {
       description = "Correct neovim package manager";
       homepage = "https://github.com/chiyadev/dep";
+      license = with licenses; [ mit ];
+    };
+  };
+  nvim-early-retirement = buildVimPluginFrom2Nix {
+    pname = "nvim-early-retirement";
+    version = "2023-04-02";
+    src = fetchurl {
+      url = "https://github.com/chrisgrieser/nvim-early-retirement/archive/d2a7c0d7394eb716ce9f14825768aa8a27a91e09.tar.gz";
+      sha256 = "1jgr6wjv1wif8x2l6p7gybrmklkm3hkrvlj6h6mis72g9flnix6w";
+    };
+    meta = with lib; {
+      description = "Send buffers into early retirement by automatically closing them after x minutes of inactivity";
+      homepage = "https://github.com/chrisgrieser/nvim-early-retirement";
       license = with licenses; [ mit ];
     };
   };
