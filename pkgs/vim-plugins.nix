@@ -3121,6 +3121,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  feline-nvim = buildVimPluginFrom2Nix {
+    pname = "feline-nvim";
+    version = "2023-03-29";
+    src = fetchurl {
+      url = "https://github.com/freddiehaddad/feline.nvim/archive/a02bcdde649cdfca0e25d2dd693ba140233b5c3e.tar.gz";
+      sha256 = "084022irzzx3h6bbv473f56jqqaik463yfvwykadq90bgkj3g1br";
+    };
+    meta = with lib; {
+      description = "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua";
+      homepage = "https://github.com/freddiehaddad/feline.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   JpFormat-vim = buildVimPluginFrom2Nix {
     pname = "JpFormat-vim";
     version = "2019-07-12";
@@ -7952,6 +7965,19 @@
     meta = with lib; {
       description = "Escape terminal \"smartly\" with <Esc> in Neovim";
       homepage = "https://github.com/sychen52/smart-term-esc.nvim";
+    };
+  };
+  perfanno-nvim = buildVimPluginFrom2Nix {
+    pname = "perfanno-nvim";
+    version = "2023-04-08";
+    src = fetchurl {
+      url = "https://github.com/t-troebst/perfanno.nvim/archive/e3668d1c8bb22c97dec733bbb068d539b033a3ae.tar.gz";
+      sha256 = "0kgdlf5di00h0rr5d0slnfjr0ywgww20i67l23rkqzb16g3gs7i3";
+    };
+    meta = with lib; {
+      description = "NeoVim lua plugin that annotates source code with profiling information from perf or other profilers";
+      homepage = "https://github.com/t-troebst/perfanno.nvim";
+      license = with licenses; [ mit ];
     };
   };
   cmp-zsh = buildVimPluginFrom2Nix {

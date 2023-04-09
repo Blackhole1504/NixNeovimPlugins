@@ -242,6 +242,7 @@ folke/twilight.nvim
 folke/which-key.nvim
 folke/zen-mode.nvim
 frabjous/knap
+freddiehaddad/feline.nvim
 fuenor/JpFormat.vim
 gaborvecsei/cryptoprice.nvim
 gaborvecsei/memento.nvim
@@ -620,6 +621,7 @@ svermeulen/vim-yoink
 svermeulen/vimpeccable
 svrana/neosolarized.nvim
 sychen52/smart-term-esc.nvim
+t-troebst/perfanno.nvim
 tamago324/cmp-zsh
 tamago324/lir.nvim
 tamago324/nlsp-settings.nvim
